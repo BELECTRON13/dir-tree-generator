@@ -24,7 +24,7 @@ A simple yet powerful Python tool to generate beautiful directory tree structure
 Option 1: Install as package
 
 ```bash
-git clone https://github.com/your-username/dir-tree-generator.git
+git clone https://github.com/belectron13/dir-tree-generator.git
 cd dir-tree-generator
 pip install -e .
 ```
@@ -32,7 +32,7 @@ pip install -e .
 Option 2: Use directly
 
 ```bash
-git clone https://github.com/your-username/dir-tree-generator.git
+git clone https://github.com/belectron13/dir-tree-generator.git
 cd dir-tree-generator
 ```
 
