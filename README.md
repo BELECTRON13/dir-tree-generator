@@ -1,10 +1,14 @@
-Dir-Tree-Generator 🌳
+# Dir-Tree-Generator 🌳
 
 A simple yet powerful Python tool to generate beautiful directory tree structures for documentation and project analysis.
 
-https://img.shields.io/badge/Python-3.6%2B-blue?logo=python https://img.shields.io/badge/License-MIT-green https://img.shields.io/badge/Version-1.0.0-orange
+![Python](https://img.shields.io/badge/Python-3.6%2B-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange)
 
-✨ Features
+---
+
+## ✨ Features
 
 · Generate clean, visual directory structures
 · Support for multiple output formats (text, markdown)
@@ -13,7 +17,9 @@ https://img.shields.io/badge/Python-3.6%2B-blue?logo=python https://img.shields.
 · Console output and file export capabilities
 · Easy to use command-line interface
 
-📦 Installation
+---
+
+## 📦 Installation
 
 Option 1: Install as package
 
@@ -30,7 +36,9 @@ git clone https://github.com/your-username/dir-tree-generator.git
 cd dir-tree-generator
 ```
 
-🚀 Quick Start
+---
+
+## 🚀 Quick Start
 
 Basic usage (current directory):
 
@@ -74,7 +82,9 @@ Limit traversal depth:
 treegen --max-depth 2
 ```
 
-📋 Usage Examples
+---
+
+## 📋 Usage Examples
 
 ```bash
 # Generate tree for current directory and display in console
@@ -90,15 +100,17 @@ treegen --ignore .git,__pycache__,node_modules,venv
 treegen --max-depth 2 -o shallow_tree.txt
 ```
 
-🎯 Advanced Usage
+---
 
-Combine multiple options:
+## 🎯 Advanced Usage
+
+### Combine multiple options:
 
 ```bash
 treegen -p src --ignore test,__pycache__ --max-depth 3 -o src_structure.md
 ```
 
-Use as Python module:
+### Use as Python module:
 
 ```python
 from treegen import generate_tree
@@ -115,9 +127,9 @@ generate_tree(
 )
 ```
 
-📊 Output Examples
+---
 
-Text Format:
+## 📊 Output Examples
 
 ```
 my-project/
@@ -133,23 +145,9 @@ my-project/
 └── requirements.txt
 ```
 
-Markdown Format:
+---
 
-```markdown
-my-project/
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   └── utils.py
-├── tests/
-│   └── test_main.py
-├── data/
-│   └── input.csv
-├── README.md
-└── requirements.txt
-```
-
-⚙️ Configuration Options
+## ⚙️ Configuration Options
 
 Parameter Format Default Description
 -p, --path Path . (current dir) Target directory path
@@ -159,23 +157,17 @@ Parameter Format Default Description
 -v, --version - - Show version information
 -h, --help - - Show help message
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
 
-1. Fork the repository
-2. Create your feature branch (git checkout -b feature/AmazingFeature)
-3. Commit your changes (git commit -m 'Add some AmazingFeature')
-4. Push to the branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
+---
 
-📄 License
+## 🛠️ Development
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🛠️ Development
-
-Setup development environment:
+### Setup development environment:
 
 ```bash
 git clone https://github.com/your-username/dir-tree-generator.git
@@ -187,25 +179,16 @@ venv\Scripts\activate     # Windows
 pip install -e .
 ```
 
-Run tests:
+### Run tests:
 
 ```bash
 python -m pytest tests/
 ```
 
+---
+
 📞 Support
 
 If you have any questions or need help, please:
 
-1. Check the existing issues
-2. Create a new issue
-
-🙏 Acknowledgments
-
-· Inspired by the Unix tree command
-· Built with Python's amazing pathlib library
-· Thanks to all contributors who help improve this tool
-
----
-
-Note: Replace your-username with your actual GitHub username in the repository URLs.
+- https://t.me/Belectron13
