@@ -180,15 +180,9 @@ venv\Scripts\activate     # Windows
 pip install -e .
 ```
 
-### Run tests:
-
-```bash
-python -m pytest tests/
-```
-
 ---
 
-📞 Support
+## 📞 Support
 
 If you have any questions or need help, please:
 
