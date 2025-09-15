@@ -149,13 +149,14 @@ my-project/
 
 ## ⚙️ Configuration Options
 
-Parameter Format Default Description
--p, --path Path . (current dir) Target directory path
--o, --output Filename None Output file name
---ignore Comma-separated list Empty Files/folders to ignore
---max-depth Integer Unlimited Maximum traversal depth
--v, --version - - Show version information
--h, --help - - Show help message
+| Parameter       | Format               | Default       | Description              |
+| --------------- | -------------------- | ------------- | ------------------------ |
+| `-p, --path`    | Path                 | `.` (current) | Target directory path    |
+| `-o, --output`  | Filename             | None          | Output file name         |
+| `--ignore`      | Comma-separated list | Empty         | Files/folders to ignore  |
+| `--max-depth`   | Integer              | Unlimited     | Maximum traversal depth  |
+| `-v, --version` | -                    | -             | Show version information |
+| `-h, --help`    | -                    | -             | Show help message        |
 
 ---
 
