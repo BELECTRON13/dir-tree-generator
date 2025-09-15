@@ -1,3 +1,4 @@
+import argparse
 from pathlib import Path
 
 def generate_tree(directory, prefix=''):
@@ -16,5 +17,3 @@ def generate_tree(directory, prefix=''):
         if item.is_dir():
             extention = '│   ' if index < len(items) - 1 else '    '
             generate_tree(item, prefix + extention)
-
-        
