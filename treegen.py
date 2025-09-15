@@ -36,3 +36,11 @@ def generate_tree(directory, prefix='', output_file=None, ignore_list=None, max_
                           ignore_list,
                           current_depth + 1
             )
+
+def _output(text, output_file):
+
+    if output_file:
+        with open(output_file, 'a', encoding='utf-8') as f:
+            f.write(text + '\n')
+    else:
+        print(text)
