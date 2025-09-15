@@ -19,6 +19,7 @@ def generate_tree(directory, prefix='', output_file=None, ignore_list=None, max_
         items = sorted(list(directory.iterdir()), key=lambda x: (x.is_file(), x.name.lower()))
 
     except PermissionError:
+        _output(f'{prefix} └─── [Premission Denied]', output_file)
         return
     
     for index, item in enumerate(items):
@@ -27,7 +28,8 @@ def generate_tree(directory, prefix='', output_file=None, ignore_list=None, max_
         print(prefix + connector + item.name)
 
         line = prefix + connector + item.name
-
+        _output(line, output_file)
+        
         if item.is_dir():
             extention = '    ' if is_last else '│   '
             generate_tree(item,
